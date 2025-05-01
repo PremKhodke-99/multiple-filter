@@ -10,27 +10,16 @@
 
 <body>
     <div class="filters">
-        <div id="dateFilter" class="filter-group">
+        <div id="dateFilter" class="filter-group" data-type="date">
             <span data-value="all" class="active">All</span>
             <span data-value="upcoming">Upcoming</span>
             <span data-value="past">Past</span>
         </div>
-        <div id="typeFilter" class="filter-group">
+        <div id="typeFilter" class="filter-group" data-type="type">
             <span data-value="all" class="active">All</span>
             <span data-value="industrial">Industrial</span>
             <span data-value="commercial">Commercial</span>
         </div>
-        <!-- <select id="dateFilter">
-            <option value="all">All</option>
-            <option value="upcoming">Upcoming</option>
-            <option value="past">Past</option>
-        </select> -->
-
-        <!-- <select id="typeFilter">
-            <option value="all">All</option>
-            <option value="industrial">Industrial</option>
-            <option value="commercial">Commercial</option>
-        </select> -->
     </div>
 
     <div id="cardContainer" class="card-container"></div>
