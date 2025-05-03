@@ -2,26 +2,30 @@
     {
       "id": 1,
       "title": "Industrial Expo",
-      "date": "2025-05-10",
-      "type": "industrial"
+      "date": "2025-05-2",
+      "type": "industrial",
+      "medium": "Offline"
     },
     {
       "id": 2,
       "title": "Commercial Summit",
       "date": "2024-03-22",
-      "type": "commercial"
+      "type": "commercial",
+      "medium": "Online"
     },
     {
       "id": 3,
       "title": "Industrial Talk",
       "date": "2025-04-25",
-      "type": "industrial"
+      "type": "industrial",
+      "medium": "Offline"
     },
     {
       "id": 4,
       "title": "Business Talk",
       "date": "2025-05-25",
-      "type": "commercial"
+      "type": "commercial",
+      "medium": "Online"
     }
   ]
   

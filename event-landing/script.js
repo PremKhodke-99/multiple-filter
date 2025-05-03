@@ -161,6 +161,7 @@ class CardFilter {
       const card = document.createElement("div");
       card.className = "card";
       card.innerHTML = `
+          <div class="card-tags"><span>${item.type}</span><span>${item.medium}</span></div>
           <h3>${item.title}</h3>
           <p><strong>Date:</strong> ${item.date}</p>
           <p><strong>Type:</strong> ${item.type}</p>
